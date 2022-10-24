@@ -1,0 +1,520 @@
+/*The following gives the backround color or the wrapper*/
+body {
+    background-color:#990000;   
+   }
+   
+   /*The following styles the header (with the title of the page).*/
+header {
+    font-size:150%;
+    padding: 10px 10px 10px 155px;
+    height: 100px;
+    background-image: url(../images/hands%20-%20hor.JPG);
+    background-repeat: repeat;
+}
+
+/*The following styles the left space below the buttons.*/
+#wrapper {
+    margin-right:auto;
+    margin-left: 2%;
+    max-width: 95%;
+    min-width: 940px;
+    background-image: url(../images/traditional_motive_vertical.JPG);
+}
+
+/*The following styles the background of Tourist Destination page */
+.dark_background {
+    background-color: #990000;
+    color: #FFFFFF;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*The following styles the buttons with the links to the sub-pages*/
+nav {
+    float:left;
+    width: 150px;
+    font-weight:bold;
+    letter-spacing: 0.1em;
+    font-size: 1.2em;
+}
+
+
+/*The following styles the navigation bar and the buttons on it*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 25px 10px 10px;
+    background-color: #990000;
+    border-bottom: 3px solid #FFFFFF;
+    display: block;
+    transition: background-color 2s ease,
+        padding 0.8s linear;
+    margin-left: 3px;
+    min-height: 2.2em;
+}
+
+nav a:link {
+    color: #d9d9d9;
+}
+nav a:visited {
+    color: #ffffff;
+}
+nav a:hover {
+    color: #869DC7;
+    background-color: #EAEAEA;
+}
+
+h1 {
+    font-family:'Brush Script MT', sans-serif;
+    color:#FFFFFF;
+    background-color: #990000;
+    border-style:solid;
+    letter-spacing: 10px;
+    width: 700px;
+    height: auto;
+    margin-left: 190px;
+    border-width: 2px;
+    text-align: center;
+    }
+
+h2 {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 440px;
+    font-family: sans-serif;
+    color:#990000;
+    font-size: 2em;
+    padding: 8px;
+    letter-spacing: 0.1em
+}
+
+h3 {
+    font-family:sans-serif;
+    font-size:25px;
+    letter-spacing: 0.1em
+}
+
+main {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    overflow: auto;
+}
+
+.column .figure img {
+width: 250px;
+height: 355px;
+}
+
+#map_box iframe {
+width: 220px;
+height: 165px;
+}
+
+/*The following styles the paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align:left;
+    padding: 8px;
+    text-align: justify;
+}
+
+/* The following will affect the box of the map. */
+#map_box {
+    float: left;
+    background-color: azure;
+    border: ridge;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*The following will affect the items that need to be floating on the right */
+#float_right {
+    float: right;
+    margin: 20px;}
+
+/*The following will affect the images - the text describing them */
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*The following will affect the items that need to be foating on the left */
+#float_left {
+    float: left;
+    margin: 20px;}
+
+/*The following styles the boxes for images */
+#image_box {
+    width: 500px;
+    height:375px;
+    border: ridge;
+    border-width: 3px;
+    margin: 15px;
+    align-items: center;
+    font-weight: bold;}
+
+/*The following three will affect the index and tourist_destination pages arranging the text in columns */
+.column{
+    float: left;
+    width: 50%;
+}
+
+.newspaper{
+    column-count: 2;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The following will affect the map of Moldova on index page. */
+.figure {
+    float: left;
+    width: 260px;
+    margin: 20px;
+    background-image: url(../images/tricolor.JPG);
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-size: .80em;
+    padding: 6px;
+    border: 1px solid #CCC;
+    box-shadow: 5px 5px 5px #828282;
+    transform: rotate(3deg);
+}
+
+/* The following will stile the picture box on index page. */
+#Chisinau_box {
+    width: 440px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: maroon;
+    margin-left: 30px;
+    padding: 3px;
+    box-shadow: 3px 3px 3px grey;
+    text-align: center;
+    float: left;  
+}
+
+/* The following will affect footer */
+#img_repeat{
+    background-image: url(../images/motive_with_space.JPG);
+    background-repeat: repeat;
+}
+
+.email_form {
+    color: #990000; 
+    font-family: Georgia;
+}
+
+#float_right figcaption {
+    text-align: center"
+}
+
+.dark_background h2 {
+    color: #FFFFFF;
+}
+
+.dark_background #float_right p {
+    font-weight: bold;
+}
+
+.row .column h3 {
+    color: #990000;
+}
+
+.column .dark_background h3 {
+    color: #FFFFFF;
+}
+
+/* The following will affect the footer. */
+footer{
+    color:black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    clear: left;
+    height: 30px;
+    padding-left: 5px;
+    background-image: url(../images/motive_with_space.JPG);
+    background-repeat: repeat;  
+}
+   
+   /* --------------------------MEDIA QUERIES------------------------------------------- */
+@media only screen and (min-width: 120px) and (max-width: 468px) {
+    body{
+        font-size: 0.8em;
+        background-color: white;
+        margin-right: 10px;
+       }    
+    header {
+        font-size: 70%;
+        background-image: none;
+        height: 30px;
+        font-size:150%;
+    }
+    /*The following styles the left space below the buttons.*/
+    #wrapper {
+        background-image: none;
+        min-width: 450px;
+        max-width: 450px;
+    } 
+
+    /*The following styles the buttons with the links to the sub-pages*/
+    nav {
+        width: auto;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        float: none;
+        font-size: 0.8em;
+    }
+    nav ul li {
+        width: 112px;
+        margin-bottom: 20px;
+    } 
+    nav a {
+        background-color: darkred;
+        text-align: center;
+    }
+    h1 {
+        height: 40px;
+        margin-top: -15px;
+        text-align: left;
+        border: none;
+        letter-spacing: 3px;
+        margin-left: -100px;
+        color:#990000;
+        background-color: white;
+    }
+    h2 {
+        font-size: 2.0em;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 400px;
+    }
+    h3 {
+        font-size: 14px;
+        letter-spacing: normal;
+        width: 400px;
+    }
+    main {
+        overflow:visible;
+    }
+    p {
+        font-family: Arial, sans-serif;
+        font-size: 110%;
+        text-align: left;
+        padding: 8px;
+        text-align: justify;
+        width: 380px;
+        line-height: 18px;
+    }
+    .figure img {
+        width: 120px;
+        height: 140px;
+    }
+    #map_box{
+        float: none;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    /*The following will affect the items that need to be foating on the right */
+    #float_right {
+        float: none;
+        margin: 20px;
+    }
+
+    /*The following will affect the images - the text describing them */
+    figcaption {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    /*The following will affect the items that need to be foating on the left */
+    #float_left {
+        float: none;
+        margin: 20px;
+    }
+
+    /*The following styles the boxes for images */
+    #image_box {
+        width: 350px;
+        height: 275px;
+        /* border: ridge; */
+        /* margin: 15px; */
+        /* align-items: center; */
+       
+    }
+    #image_box img {
+        width: 350px;
+        height: 275px;
+        /* margin: 5px; */
+    }
+
+    /*The following three will affect the index and tourist_destination pages arranging the text in columns */
+    .column{
+        float: none;
+        width: 50%;
+    }
+
+    .newspaper{
+        column-count: 2;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* The following will affect the map of Moldova on index page. */
+    .figure {
+        float: none;
+        width: 260px;
+        margin: 20px;
+        background-image: url(../images/tricolor.JPG);
+        color:black;
+        font-weight: bold;
+        text-align: center;
+        font-size: .80em;
+        padding: 6px;
+        border: 1px solid #CCC;
+        box-shadow: 5px 5px 5px #828282;
+        transform: rotate(3deg);
+    }
+
+    /* The following will stile the picture box on index page. */
+    #Chisinau_box {
+        width: 330px;
+        border: 2px solid;
+        border-radius: 5px;
+        border-color: maroon;
+        margin-left: 30px;
+        padding: 3px;
+        box-shadow: 3px 3px 3px grey;
+        text-align: center;
+        float: none;  
+    }
+    #Chisinau_box img {
+        width: 320px;
+    }
+
+   .embroidery img {
+        height: 150px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    } 
+    .embroidery figcaption {
+        display: none;
+    }
+
+    .dacii img {
+        width: 360px;
+    }
+
+    .mamaliga img {
+        width: 360px;
+        margin-top: -50px;
+    }
+    #float_left img {
+        width: 360px;
+    }
+    
+    #long-img {
+        display: none;
+    }
+    footer{
+        background-image: none;
+        font-size: 13px;
+        margin-bottom: -10px;
+    }
+    .column .dark_background {
+        width: 410px;    
+    }
+    .chisinau img{
+        width: 350px;
+        /* margin-top: 0px; */
+    }
+    .nav-div {
+        margin-bottom: 40px;
+    }
+    .reverse-color1 {
+        background-color: white;
+    }
+    #orhei {
+        background-color: white;
+        color:#000000;
+    }
+    #orhei h3 {
+        color: #990000;
+    }
+    #soroca {
+        background-color:#990000;
+        color: white;
+        width: 400px;
+    }
+    #soroca h3 {
+        color: white;
+        padding: 5px;
+    }
+    footer {
+        font-size: 10px;
+        /* background-color: #990000; */
+        height: 20px;
+        padding-top: -2px;
+        padding-bottom: 5px;
+        color: brown;
+    }
+    .welcome img {
+        width: 350px;
+    }
+    .airport img {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 468px) and (max-width:768px) {
+    header {
+        font-size: 15px;
+    }
+    /* body {
+        width: 100%;
+        font-size: 14px;
+        line-height: 16px;
+    } */
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    header {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1330px) {
+    header {
+        font-size: 15px;
+    }
+}
+
+@media print {
+    /* #wrapper header {
+        font-size: 15px;
+    } */
+    
+}
