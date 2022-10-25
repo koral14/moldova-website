@@ -45,7 +45,11 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
+nav ul li {
+    font-size: 15px;
+    width: 125px;
+    /* margin-bottom: 20px; */
+}
 nav a {
     text-decoration: none;
     padding: 10px 25px 10px 10px;
@@ -84,8 +88,8 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-left: 300px;
-    margin-right: 440px;
+    /* margin-left: 300px;
+    margin-right: 440px; */
     font-family: sans-serif;
     color:#990000;
     font-size: 2em;
@@ -257,64 +261,83 @@ footer{
     body {
         font-size: 0.8em;
         background-color: white;
-       }    
-    header {
-        font-size: 70%;
+        max-width: 468px;
+       } 
+    #wrapper-index {
         background-image: none;
-        height: 30px;
-        font-size:150%;
+        background-color: white;
+        margin-bottom: 20px;
+    }   
+    #wrapper-index main {
+        margin-top: 80px;
+        overflow: hidden;
+        padding: 5px;
+        background-color: white;
     }
-    #wrapper {
+    #wrapper-index p {
+        width: 380px;
+    }
+    #wrapper-traditions {
         background-image: none;
-        min-width: 450px;
-        max-width: 450px;
-    } 
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    #wrapper-traditions main {
+        margin-top: 100px;
+        overflow: hidden;
+        padding: 5px;
+    }    
+    #wrapper-traditions main h2 {
+        margin-top: 0px;
+    }
     nav {
-        width: auto;
+        margin-top: 15px;
     }
     nav ul {
         display: flex;
         flex-direction: row;
         float: none;
-        font-size: 0.8em;
+        margin-top: 10px;
     }
     nav ul li {
-        width: 112px;
+        width: 100px;
         margin-bottom: 20px;
+        font-size: 0.5em;
     } 
     nav a {
         background-color: darkred;
         text-align: center;
     }
+    header {
+        height: 20px;
+        background-image: none;
+        padding: 5px;
+    }
     h1 {
-        height: 40px;
-        margin-top: -15px;
-        text-align: left;
-        border: none;
-        width: 330px;
         letter-spacing: 3px;
-        margin-left: -100px;
         color:#990000;
         background-color: white;
+        font-size: 28px;
+        max-width: 250px;
+        margin-top: 0px;
+        margin-left: 50px;
+        border: none;
     }
     h2 {
         font-size: 2.0em;
-        margin-left: 0px;
-        margin-top: 20px;
-        width: 400px;
+        margin-top: -30px;
     }
     h3 {
         font-size: 14px;
         letter-spacing: normal;
-        width: 400px;
     }
     p {
         font-family: Arial, sans-serif;
-        font-size: 110%;
+        font-size: 14px;
         text-align: left;
         padding: 8px;
         text-align: justify;
-        width: 380px;
+        max-width: 460px;
         line-height: 18px;
     }
     .figure img {
@@ -383,7 +406,7 @@ footer{
         border: 2px solid;
         border-radius: 5px;
         border-color: maroon;
-        margin-left: 30px;
+        /* margin-left: 30px; */
         padding: 3px;
         box-shadow: 3px 3px 3px grey;
         text-align: center;
@@ -392,7 +415,7 @@ footer{
     #Chisinau_box img {
         width: 320px;
     }
-   .embroidery img {
+    .embroidery img {
         height: 150px;
         float: left;
         margin-right: 10px;
@@ -415,10 +438,14 @@ footer{
     #long-img {
         display: none;
     }
-    footer{
+    footer {
         background-image: none;
-        font-size: 13px;
-        margin-bottom: -10px;
+        padding-bottom: 4px;
+        position: absolute;
+    }
+    footer p {
+        height: 10px;
+        color:#990000;
     }
     .column .dark_background {
         width: 410px;    
@@ -461,9 +488,15 @@ footer{
     .airport img {
         width: 350px;
     }
+    #dance img {
+        max-width: 300px;
+    }
+    #hora img {
+        max-width: 300px;
+    }
 }
 
-@media only screen and (min-width: 468px) and (max-width:768px) {
+@media only screen and (min-width: 468px) and (max-width: 768px) {
     body {
         font-size: 0.8em;
         background-color:#EAEAEA;
@@ -488,7 +521,6 @@ footer{
         display: flex;
         flex-direction: row;
         float: none;
-        /* font-size: 0.8em; */
     }
     nav ul li {
         width: 180px;
@@ -497,17 +529,6 @@ footer{
     nav a {
         background-color: darkred;
         text-align: center;
-    }
-    h1 {
-        height: 40px;
-        margin-top: -15px;
-        text-align: center;
-        border: none;
-        width: 100%;
-        letter-spacing: 3px;
-        margin-left: 0px;
-        color:#990000;
-        background-color: #EAEAEA;
     }
     h2 {
         font-size: 2.0em;
@@ -521,7 +542,7 @@ footer{
         width: 400px;
     }
     main {
-        width: 98%;
+        width: 768px;
     }
     p {
         font-size: 110%;
