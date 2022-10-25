@@ -318,18 +318,21 @@ footer{
         color:#990000;
         background-color: white;
         font-size: 28px;
-        max-width: 250px;
+        max-width: 360px;
         margin-top: 0px;
-        margin-left: 50px;
+        margin-left: 10px;
         border: none;
     }
     h2 {
         font-size: 2.0em;
         margin-top: -30px;
+        max-width: 360px;
     }
     h3 {
         font-size: 14px;
         letter-spacing: normal;
+        max-width: 360px;
+        color: #990000;
     }
     p {
         font-family: Arial, sans-serif;
