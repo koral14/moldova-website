@@ -14,9 +14,9 @@ header {
 
 /*The following styles the left space below the buttons.*/
 #wrapper {
-    margin-right:auto;
-    margin-left: 2%;
-    max-width: 95%;
+    /* margin-right: auto; */
+    margin-left: 1%;
+    max-width: 98%;
     min-width: 940px;
     background-image: url(../images/traditional_motive_vertical.JPG);
 }
@@ -35,7 +35,7 @@ nav {
     width: 150px;
     font-weight:bold;
     letter-spacing: 0.1em;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 
@@ -77,7 +77,7 @@ h1 {
     letter-spacing: 10px;
     width: 700px;
     height: auto;
-    margin-left: 190px;
+    margin-left: 150px;
     border-width: 2px;
     text-align: center;
     }
@@ -139,7 +139,8 @@ p {
 /*The following will affect the items that need to be floating on the right */
 #float_right {
     float: right;
-    margin: 20px;}
+    margin: 20px;
+}
 
 /*The following will affect the images - the text describing them */
 figcaption {
@@ -168,9 +169,9 @@ figcaption {
     width: 50%;
 }
 
-.newspaper{
+/* .newspaper{
     column-count: 2;
-}
+} */
 
 .row:after {
     content: "";
@@ -245,7 +246,7 @@ footer{
     padding-bottom: 2px;
     font-size: 12px;
     clear: left;
-    height: 30px;
+    height: 40px;
     padding-left: 5px;
     background-image: url(../images/motive_with_space.JPG);
     background-repeat: repeat;  
@@ -253,10 +254,9 @@ footer{
    
    /* --------------------------MEDIA QUERIES------------------------------------------- */
 @media only screen and (min-width: 120px) and (max-width: 468px) {
-    body{
+    body {
         font-size: 0.8em;
         background-color: white;
-        margin-right: 10px;
        }    
     header {
         font-size: 70%;
@@ -264,14 +264,11 @@ footer{
         height: 30px;
         font-size:150%;
     }
-    /*The following styles the left space below the buttons.*/
     #wrapper {
         background-image: none;
         min-width: 450px;
         max-width: 450px;
     } 
-
-    /*The following styles the buttons with the links to the sub-pages*/
     nav {
         width: auto;
     }
@@ -294,6 +291,7 @@ footer{
         margin-top: -15px;
         text-align: left;
         border: none;
+        width: 330px;
         letter-spacing: 3px;
         margin-left: -100px;
         color:#990000;
@@ -309,9 +307,6 @@ footer{
         font-size: 14px;
         letter-spacing: normal;
         width: 400px;
-    }
-    main {
-        overflow:visible;
     }
     p {
         font-family: Arial, sans-serif;
@@ -338,50 +333,35 @@ footer{
         float: none;
         margin: 20px;
     }
-
     /*The following will affect the images - the text describing them */
     figcaption {
         text-align: center;
         font-weight: bold;
     }
-
     /*The following will affect the items that need to be foating on the left */
     #float_left {
         float: none;
         margin: 20px;
     }
-
     /*The following styles the boxes for images */
     #image_box {
         width: 350px;
         height: 275px;
-        /* border: ridge; */
-        /* margin: 15px; */
-        /* align-items: center; */
-       
     }
     #image_box img {
         width: 350px;
         height: 275px;
-        /* margin: 5px; */
     }
-
     /*The following three will affect the index and tourist_destination pages arranging the text in columns */
     .column{
         float: none;
         width: 50%;
     }
-
-    .newspaper{
-        column-count: 2;
-    }
-
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
-
     /* The following will affect the map of Moldova on index page. */
     .figure {
         float: none;
@@ -397,7 +377,6 @@ footer{
         box-shadow: 5px 5px 5px #828282;
         transform: rotate(3deg);
     }
-
     /* The following will stile the picture box on index page. */
     #Chisinau_box {
         width: 330px;
@@ -413,7 +392,6 @@ footer{
     #Chisinau_box img {
         width: 320px;
     }
-
    .embroidery img {
         height: 150px;
         float: left;
@@ -427,7 +405,6 @@ footer{
     .dacii img {
         width: 360px;
     }
-
     .mamaliga img {
         width: 360px;
         margin-top: -50px;
@@ -435,7 +412,6 @@ footer{
     #float_left img {
         width: 360px;
     }
-    
     #long-img {
         display: none;
     }
@@ -449,7 +425,6 @@ footer{
     }
     .chisinau img{
         width: 350px;
-        /* margin-top: 0px; */
     }
     .nav-div {
         margin-bottom: 40px;
@@ -475,7 +450,6 @@ footer{
     }
     footer {
         font-size: 10px;
-        /* background-color: #990000; */
         height: 20px;
         padding-top: -2px;
         padding-bottom: 5px;
@@ -490,14 +464,208 @@ footer{
 }
 
 @media only screen and (min-width: 468px) and (max-width:768px) {
+    body {
+        font-size: 0.8em;
+        background-color:#EAEAEA;
+        max-width: 768px;
+       }    
     header {
-        font-size: 15px;
+        font-size: 95%;
+        background-image: none;
+        height: 30px;
+        font-size: 150%;
+        max-width: 768px;
     }
-    /* body {
+    #wrapper {
+        background-image: none;
+        min-width: 450px;
+        max-width: 768px;
+    } 
+    nav {
+        width: auto;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        float: none;
+        /* font-size: 0.8em; */
+    }
+    nav ul li {
+        width: 180px;
+        margin-bottom: 20px;
+    } 
+    nav a {
+        background-color: darkred;
+        text-align: center;
+    }
+    h1 {
+        height: 40px;
+        margin-top: -15px;
+        text-align: center;
+        border: none;
         width: 100%;
-        font-size: 14px;
-        line-height: 16px;
-    } */
+        letter-spacing: 3px;
+        margin-left: 0px;
+        color:#990000;
+        background-color: #EAEAEA;
+    }
+    h2 {
+        font-size: 2.0em;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 400px;
+    }
+    h3 {
+        font-size: 22px;
+        letter-spacing: normal;
+        width: 400px;
+    }
+    main {
+        width: 98%;
+    }
+    p {
+        font-size: 110%;
+        text-align: left;
+        max-width: 768px;
+        text-align: justify;
+    }
+    .figure img {
+        width: 120px;
+        height: 140px;
+    }
+    #map_box{
+        float: none;
+        width: 250px;
+        height: 200px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    /*The following will affect the items that need to be foating on the right */
+    #float_right {
+        float: none;
+        text-align: center;
+        /* margin: 20px; */
+    }
+    /*The following will affect the images - the text describing them */
+    figcaption {
+        text-align: center;
+        font-weight: bold;
+    }
+    /*The following will affect the items that need to be foating on the left */
+    #float_left {
+        float: none;
+        margin: 20px;
+    }
+    /*The following styles the boxes for images */
+    #image_box {
+        width: 350px;
+        height: 275px;
+    }
+    /*The following three will affect the index and tourist_destination pages arranging the text in columns */
+    .column{
+        float: none;
+        width: 100%;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* The following will affect the map of Moldova on index page. */
+    .figure {
+        float: none;
+        width: 260px;
+        margin: 20px;
+        background-image: url(../images/tricolor.JPG);
+        color:black;
+        font-weight: bold;
+        text-align: center;
+        font-size: .80em;
+        padding: 6px;
+        border: 1px solid #CCC;
+        box-shadow: 5px 5px 5px #828282;
+        transform: rotate(3deg);
+    }
+    /* The following will stile the picture box on index page. */
+    #Chisinau_box img {
+        width: 320px;
+    }
+   .embroidery img {
+        height: 150px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    } 
+    .embroidery figcaption {
+        display: none;
+    }
+    #float_left img {
+        width: 600px;
+    }
+    #long-img {
+        display: none;
+    }
+    .column .dark_background {
+        width: 410px;    
+    }
+    .chisinau img{
+        width: 350px;
+    }
+    .nav-div {
+        margin-bottom: 40px;
+    }
+    .reverse-color1 {
+        background-color: white;
+    }
+    #orhei {
+        background-color: white;
+        color:#000000;
+    }
+    #orhei h3 {
+        color: #990000;
+    }
+    #soroca {
+        background-color:#990000;
+        color: white;
+        width: 400px;
+    }
+    #soroca h3 {
+        color: white;
+        padding: 5px;
+    }
+    .martisor img {
+        height: auto;
+        width: auto;
+    }
+    #image_box img {
+        height: 275px;
+        width: 350px;
+    }
+    footer {
+        font-size: 10px;
+        height: 20px;
+        padding-top: -2px;
+        padding-bottom: 5px;
+        color: brown;
+    }
+    .welcome img {
+        width: 350px;
+    }
+    .airport img {
+        width: 350px;
+    }
+    #dance img {
+        margin-left: 90px;
+        padding-left: 20px;
+    }
+    .martisor {
+        margin-left: 170px;
+    }
+    footer{
+        background-image: none;
+        font-size: 13px;
+        margin-bottom: -10px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
@@ -513,8 +681,6 @@ footer{
 }
 
 @media print {
-    /* #wrapper header {
-        font-size: 15px;
-    } */
+    
     
 }
