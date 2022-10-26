@@ -49,10 +49,9 @@ nav ul li {
 }
 nav a {
     text-decoration: none;
-    padding: 10px 25px 10px 10px;
+    /* padding: 10px 25px 10px 10px; */
     background-color: #990000;
     border-bottom: 3px solid #FFFFFF;
-    /* display: block; */
     /* display: block; */
     transition: background-color 2s ease,
         padding 0.8s linear;
@@ -72,7 +71,7 @@ nav a:hover {
 }
 
 h1 {
-    font-family:'Brush Script MT', sans-serif;
+    font-family: Georgia, sans-serif;
     color:#FFFFFF;
     background-color: #990000;
     border-style:solid;
@@ -262,9 +261,6 @@ footer{
         background-image: none;
         background-color: white;
     }
-    header {
-        max-width: 90%;
-    }
     main {
         background-image: none;
         margin-bottom: 5px;
@@ -275,22 +271,15 @@ footer{
         margin-top: 0px;
     }
     p {
-        /* max-width: 100%; */
         width: 90%;
-        /* background-color: aqua; */
     }
-    /* .column p {
-       
-        width: 100%;
-    }
-    .row p {
-        width: 100%;
-    } */
     .column p {
         width: 330px;
         padding: 10px;
     }
     nav {
+        display: flex;
+        flex-direction: row;
         margin-top: 15px;
         width: 90vw;
         text-align: center;
@@ -303,6 +292,7 @@ footer{
     }
     nav ul li {
         width: 80px;
+        height: 40px;
         margin-bottom: 10px;
         font-size: 0.4em;
     } 
@@ -319,8 +309,8 @@ footer{
         letter-spacing: 4px;
         color:#990000;
         background-color: white;
-        font-size: 28px;
-        max-width: 300px;
+        font-size: 20px;
+        width: 350px;
         margin-top: 0px;
         border: none;
         word-wrap: normal;
