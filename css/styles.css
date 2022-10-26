@@ -52,7 +52,8 @@ nav a {
     padding: 10px 25px 10px 10px;
     background-color: #990000;
     border-bottom: 3px solid #FFFFFF;
-    display: block;
+    /* display: block; */
+    /* display: block; */
     transition: background-color 2s ease,
         padding 0.8s linear;
     margin-left: 3px;
