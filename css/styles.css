@@ -255,17 +255,18 @@ footer{
 @media only screen and (min-width: 120px) and (max-width: 468px) {
     body {
         font-size: 0.8em;
-        background-color:#990000;
+        background-color:white;
        }
     #wrapper {
         background-image: none;
-        background-color: white;
+        background-color:white;
     }
     main {
         background-image: none;
         margin-bottom: 5px;
         margin-top: 50px;
         padding: 5px;
+        overflow:visible;
     }
     #destinations h2 {
         margin-top: 0px;
@@ -278,32 +279,33 @@ footer{
         padding: 10px;
     }
     nav {
-        display: flex;
-        flex-direction: row;
         margin-top: 15px;
-        width: 90vw;
+        width: 98vw;
         text-align: center;
+        margin-left: 20px;
     }
     nav ul {
         display: flex;
         flex-direction: row;
         float: none;
         margin-top: 5px;
+        padding: 3px;
     }
     nav ul li {
-        width: 80px;
-        height: 40px;
-        margin-bottom: 10px;
-        font-size: 0.4em;
+        width: 90px;
+        height: 80px;
+        margin-bottom: 5px;
+        font-size: 0.6em;
+        line-height: 20px;
     } 
     nav a {
-        background-color: darkred;
+        /* background-color: darkred; */
         text-align: center;
     }
     header {
         height: 10px;
         background-image: none;
-        padding: 5px;
+        padding: 15px;
     }
     h1 {
         letter-spacing: 4px;
