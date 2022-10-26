@@ -259,7 +259,7 @@ footer{
        }
     #wrapper {
         background-image: none;
-        background-color: green;
+        background-color: white;
     }
     header {
         max-width: 90%;
@@ -274,8 +274,20 @@ footer{
         margin-top: 0px;
     }
     p {
-        max-width: 160%;
-        width: 420px;
+        /* max-width: 100%; */
+        width: 90%;
+        /* background-color: aqua; */
+    }
+    /* .column p {
+       
+        width: 100%;
+    }
+    .row p {
+        width: 100%;
+    } */
+    .column p {
+        width: 330px;
+        padding: 10px;
     }
     nav {
         margin-top: 15px;
@@ -309,14 +321,13 @@ footer{
         font-size: 28px;
         max-width: 300px;
         margin-top: 0px;
-        margin-left: 0px;
         border: none;
         word-wrap: normal;
-        margin-left: 40px;
+        margin-left: 20px;
     }
     h2 {
         font-size: 2.0em;
-        margin-top: -30px;
+        margin-top: 0px;
         max-width: 360px;
     }
     h3 {
@@ -363,11 +374,11 @@ footer{
     }
     /*The following styles the boxes for images */
     #image_box {
-        width: 350px;
+        width: 330px;
         height: 275px;
     }
     #image_box img {
-        width: 350px;
+        width: 330px;
         height: 275px;
     }
     /*The following three will affect the index and tourist_destination pages arranging the text in columns */
@@ -415,7 +426,7 @@ footer{
         width: 410px;    
     }
     .chisinau img{
-        width: 350px;
+        width: 320px;
     }
     .nav-div {
         margin-bottom: 40px;
