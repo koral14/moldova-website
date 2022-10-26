@@ -14,10 +14,7 @@ header {
 
 /*The following styles the left space below the buttons.*/
 #wrapper {
-    /* margin-right: auto; */
-    margin-left: 1%;
-    max-width: 98%;
-    min-width: 940px;
+    /* max-width: 100%; */
     background-image: url(../images/traditional_motive_vertical.JPG);
 }
 
@@ -88,8 +85,6 @@ h1 {
 
 h2 {
     text-align: center;
-    /* margin-left: 300px;
-    margin-right: 440px; */
     font-family: sans-serif;
     color:#990000;
     font-size: 2em;
@@ -260,48 +255,42 @@ footer{
 @media only screen and (min-width: 120px) and (max-width: 468px) {
     body {
         font-size: 0.8em;
-        background-color: white;
-        max-width: 468px;
-       } 
-    #wrapper-index {
+        background-color:#990000;
+       }
+    #wrapper {
         background-image: none;
-        background-color: white;
-        margin-bottom: 20px;
-    }   
-    #wrapper-index main {
-        margin-top: 80px;
-        overflow: hidden;
-        padding: 5px;
-        background-color: white;
+        background-color: green;
     }
-    #wrapper-index p {
-        width: 380px;
+    header {
+        max-width: 90%;
     }
-    #wrapper-traditions {
+    main {
         background-image: none;
-        background-color: white;
-        margin-bottom: 20px;
-    }
-    #wrapper-traditions main {
-        margin-top: 100px;
-        overflow: hidden;
+        margin-bottom: 5px;
+        margin-top: 50px;
         padding: 5px;
-    }    
-    #wrapper-traditions main h2 {
+    }
+    #destinations h2 {
         margin-top: 0px;
+    }
+    p {
+        max-width: 160%;
+        width: 420px;
     }
     nav {
         margin-top: 15px;
+        width: 90vw;
+        text-align: center;
     }
     nav ul {
         display: flex;
         flex-direction: row;
         float: none;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     nav ul li {
-        width: 100px;
-        margin-bottom: 20px;
+        width: 80px;
+        margin-bottom: 10px;
         font-size: 0.4em;
     } 
     nav a {
@@ -309,19 +298,21 @@ footer{
         text-align: center;
     }
     header {
-        height: 20px;
+        height: 10px;
         background-image: none;
         padding: 5px;
     }
     h1 {
-        letter-spacing: 3px;
+        letter-spacing: 4px;
         color:#990000;
         background-color: white;
         font-size: 28px;
-        max-width: 360px;
+        max-width: 300px;
         margin-top: 0px;
-        margin-left: 10px;
+        margin-left: 0px;
         border: none;
+        word-wrap: normal;
+        margin-left: 40px;
     }
     h2 {
         font-size: 2.0em;
@@ -340,7 +331,6 @@ footer{
         text-align: left;
         padding: 8px;
         text-align: justify;
-        max-width: 460px;
         line-height: 18px;
     }
     .figure img {
@@ -349,20 +339,22 @@ footer{
     }
     #map_box{
         float: none;
-        width: 250px;
+        width: 240px;
         height: 200px;
         text-align: center;
         margin-bottom: 40px;
+        margin-left: 70px;
     }
     /*The following will affect the items that need to be foating on the right */
     #float_right {
         float: none;
-        margin: 20px;
+        margin: 10px;
     }
     /*The following will affect the images - the text describing them */
     figcaption {
         text-align: center;
         font-weight: bold;
+        width: 270px;
     }
     /*The following will affect the items that need to be foating on the left */
     #float_left {
@@ -388,35 +380,13 @@ footer{
         display: table;
         clear: both;
     }
-    /* The following will affect the map of Moldova on index page. */
-    .figure {
-        float: none;
-        width: 260px;
-        margin: 20px;
-        background-image: url(../images/tricolor.JPG);
-        color:black;
-        font-weight: bold;
-        text-align: center;
-        font-size: .80em;
-        padding: 6px;
-        border: 1px solid #CCC;
-        box-shadow: 5px 5px 5px #828282;
-        transform: rotate(3deg);
-    }
     /* The following will stile the picture box on index page. */
     #Chisinau_box {
-        width: 330px;
-        border: 2px solid;
-        border-radius: 5px;
-        border-color: maroon;
-        /* margin-left: 30px; */
-        padding: 3px;
-        box-shadow: 3px 3px 3px grey;
-        text-align: center;
-        float: none;  
+        width: 300px;
+        margin-left: 50px;
     }
     #Chisinau_box img {
-        width: 320px;
+        width: 280px;
     }
     .embroidery img {
         height: 150px;
@@ -429,10 +399,10 @@ footer{
     }
 
     .dacii img {
-        width: 360px;
+        width: 300px;
     }
     .mamaliga img {
-        width: 360px;
+        width: 300px;
         margin-top: -50px;
     }
     #float_left img {
@@ -440,15 +410,6 @@ footer{
     }
     #long-img {
         display: none;
-    }
-    footer {
-        background-image: none;
-        padding-bottom: 4px;
-        position: absolute;
-    }
-    footer p {
-        height: 10px;
-        color:#990000;
     }
     .column .dark_background {
         width: 410px;    
@@ -478,13 +439,6 @@ footer{
         color: white;
         padding: 5px;
     }
-    footer {
-        font-size: 10px;
-        height: 20px;
-        padding-top: -2px;
-        padding-bottom: 5px;
-        color: brown;
-    }
     .welcome img {
         width: 350px;
     }
@@ -493,9 +447,15 @@ footer{
     }
     #dance img {
         max-width: 300px;
+        margin-left: -30px;
     }
     #hora img {
         max-width: 300px;
+        margin-left: -30px;
+    }
+    footer {
+        background-image: none;
+        color: white;
     }
 }
 
@@ -503,7 +463,7 @@ footer{
     body {
         font-size: 0.8em;
         background-color:#EAEAEA;
-        max-width: 768px;
+        /* max-width: 768px; */
        }    
     header {
         font-size: 95%;
@@ -512,11 +472,11 @@ footer{
         font-size: 150%;
         max-width: 768px;
     }
-    #wrapper {
+    main {
         background-image: none;
         min-width: 450px;
         max-width: 768px;
-    } 
+    }
     nav {
         width: auto;
     }
@@ -543,9 +503,6 @@ footer{
         font-size: 22px;
         letter-spacing: normal;
         width: 400px;
-    }
-    main {
-        width: 768px;
     }
     p {
         font-size: 110%;
@@ -665,13 +622,6 @@ footer{
         height: 275px;
         width: 350px;
     }
-    footer {
-        font-size: 10px;
-        height: 20px;
-        padding-top: -2px;
-        padding-bottom: 5px;
-        color: brown;
-    }
     .welcome img {
         width: 350px;
     }
@@ -683,12 +633,10 @@ footer{
         padding-left: 20px;
     }
     .martisor {
-        margin-left: 170px;
+        margin-left: -30px;
     }
     footer{
         background-image: none;
-        font-size: 13px;
-        margin-bottom: -10px;
     }
 }
 
