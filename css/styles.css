@@ -399,7 +399,7 @@ footer{
     }
 
     .dacii img {
-        width: 300px;
+        width: 95%;
     }
     .mamaliga img {
         width: 300px;
@@ -447,7 +447,7 @@ footer{
         margin-left: -30px;
     }
     #hora img {
-        max-width: 300px;
+        max-width: 95%;
         margin-left: -30px;
     }
     footer {
