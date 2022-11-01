@@ -271,7 +271,7 @@ footer{
         width: 90%;
     }
     .column p {
-        width: 330px;
+        width: 380px;
         padding: 10px;
     }
     /*The following 2 will affect the index and tourist_destination pages arranging the text in columns */
@@ -279,13 +279,17 @@ footer{
         float: none;
     }
     .column .dark_background {
-        width: 350px;    
+        width: 390px;
+        padding-right: 15px;  
+    }
+    #first_p {
+        width: 95%;
     }
     .dark_background {
         max-width: fit-content;
     }
     nav {
-        width: 95%;
+        width: 100%;
     }
     nav ul {
         display: grid;
@@ -430,7 +434,8 @@ footer{
     #soroca {
         background-color:#990000;
         color: white;
-        width: 350px;
+        width: 390px;
+        padding-right: 15px;
     }
     #soroca h3 {
         color: white;
