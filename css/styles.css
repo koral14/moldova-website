@@ -358,7 +358,7 @@ footer{
     figcaption {
         text-align: center;
         font-weight: bold;
-        width: 270px;
+        /* width: 270px; */
     }
     /*The following will affect the items that need to be foating on the left */
     #float_left {
@@ -447,6 +447,10 @@ footer{
     }
     #hora img {
         max-width: 95%;
+    }
+    .martisor img {
+        max-width: 95%;
+        margin-left: 25px;
     }
     footer {
         background-image: none;
