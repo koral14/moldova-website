@@ -285,7 +285,7 @@ footer{
         max-width: fit-content;
     }
     nav {
-        width: 100%;
+        width: 95%;
     }
     nav ul {
         display: grid;
@@ -317,7 +317,7 @@ footer{
         margin-top: 0px;
         border: none;
         word-wrap: normal;
-        margin-left: -20px;
+        margin-left: 0px;
     }
     h2 {
         font-size: 1.5em;
