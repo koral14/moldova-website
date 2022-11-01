@@ -28,35 +28,33 @@ header {
 
 /*The following styles the buttons with the links to the sub-pages*/
 nav {
-    float:left;
+    float: left;
     width: 150px;
-    font-weight:bold;
+    font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 1.6em;
+    font-size: 1.1em;
 }
 
 
 /*The following styles the navigation bar and the buttons on it*/
-nav ul {
+nav ul{
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
-nav ul li {
-    font-size: 15px;
-    width: 125px;
-    /* margin-bottom: 20px; */
-}
-nav a {
+
+nav a{
     text-decoration: none;
-    /* padding: 10px 25px 10px 10px; */
     background-color: #990000;
     border-bottom: 3px solid #FFFFFF;
-    /* display: block; */
+    display: block;
     transition: background-color 2s ease,
         padding 0.8s linear;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-left: 3px;
-    min-height: 2.2em;
 }
 
 nav a:link {
@@ -104,7 +102,9 @@ main {
     padding: 10px 20px;
     overflow: auto;
 }
-
+#index {
+    margin-top: -40px;
+}
 .column .figure img {
 width: 250px;
 height: 355px;
@@ -167,10 +167,6 @@ figcaption {
     float: left;
     width: 50%;
 }
-
-/* .newspaper{
-    column-count: 2;
-} */
 
 .row:after {
     content: "";
@@ -263,8 +259,8 @@ footer{
     }
     main {
         background-image: none;
-        margin-bottom: 5px;
-        margin-top: 50px;
+        margin-bottom: 2px;
+        margin-top: 15px;
         padding: 5px;
         overflow:visible;
     }
@@ -278,29 +274,34 @@ footer{
         width: 330px;
         padding: 10px;
     }
+    /*The following 2 will affect the index and tourist_destination pages arranging the text in columns */
+    .column{
+        float: none;
+    }
+    .column .dark_background {
+        width: 350px;    
+    }
+    .dark_background {
+        max-width: fit-content;
+    }
     nav {
-        margin-top: 15px;
-        width: 98vw;
-        text-align: center;
-        margin-left: 20px;
+        width: 100%;
     }
     nav ul {
-        display: flex;
-        flex-direction: row;
-        float: none;
-        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 3px;
     }
     nav ul li {
-        width: 90px;
-        height: 80px;
+        display: grid;
         margin-bottom: 5px;
-        font-size: 0.6em;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 10px;
     } 
     nav a {
-        /* background-color: darkred; */
         text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
     }
     header {
         height: 10px;
@@ -316,11 +317,10 @@ footer{
         margin-top: 0px;
         border: none;
         word-wrap: normal;
-        margin-left: 20px;
+        margin-left: -20px;
     }
     h2 {
-        font-size: 2.0em;
-        margin-top: 0px;
+        font-size: 1.5em;
         max-width: 360px;
     }
     h3 {
@@ -347,7 +347,7 @@ footer{
         height: 200px;
         text-align: center;
         margin-bottom: 40px;
-        margin-left: 70px;
+        margin-left: 40px;
     }
     /*The following will affect the items that need to be foating on the right */
     #float_right {
@@ -367,17 +367,12 @@ footer{
     }
     /*The following styles the boxes for images */
     #image_box {
-        width: 330px;
-        height: 275px;
+        width: 300px;
+        height: 250px;
     }
     #image_box img {
-        width: 330px;
-        height: 275px;
-    }
-    /*The following three will affect the index and tourist_destination pages arranging the text in columns */
-    .column{
-        float: none;
-        width: 50%;
+        width: 300px;
+        height: 250px;
     }
     .row:after {
         content: "";
@@ -387,7 +382,8 @@ footer{
     /* The following will stile the picture box on index page. */
     #Chisinau_box {
         width: 300px;
-        margin-left: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
     #Chisinau_box img {
         width: 280px;
@@ -410,16 +406,13 @@ footer{
         margin-top: -50px;
     }
     #float_left img {
-        width: 360px;
+        width: 300px;
     }
     #long-img {
         display: none;
     }
-    .column .dark_background {
-        width: 410px;    
-    }
     .chisinau img{
-        width: 320px;
+        width: 300px;
     }
     .nav-div {
         margin-bottom: 40px;
@@ -437,17 +430,17 @@ footer{
     #soroca {
         background-color:#990000;
         color: white;
-        width: 400px;
+        width: 350px;
     }
     #soroca h3 {
         color: white;
         padding: 5px;
     }
     .welcome img {
-        width: 350px;
+        width: 320px;
     }
     .airport img {
-        width: 350px;
+        width: 300px;
     }
     #dance img {
         max-width: 300px;
@@ -459,7 +452,9 @@ footer{
     }
     footer {
         background-image: none;
-        color: white;
+        height: 25px;
+        padding-top: 0px;
+        color:#990000;
     }
 }
 
@@ -467,7 +462,6 @@ footer{
     body {
         font-size: 0.8em;
         background-color:#EAEAEA;
-        /* max-width: 768px; */
        }    
     header {
         font-size: 95%;
@@ -591,7 +585,7 @@ footer{
         display: none;
     }
     .column .dark_background {
-        width: 410px;    
+        width: 390px;    
     }
     .chisinau img{
         width: 350px;
