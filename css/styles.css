@@ -402,7 +402,7 @@ footer{
         width: 95%;
     }
     .mamaliga img {
-        width: 300px;
+        width: 95%;
         margin-top: -50px;
     }
     #float_left img {
@@ -443,8 +443,7 @@ footer{
         width: 300px;
     }
     #dance img {
-        max-width: 300px;
-        margin-left: -30px;
+        max-width: 95%;
     }
     #hora img {
         max-width: 95%;
